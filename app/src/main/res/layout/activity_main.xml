@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#673AB7"
+    android:foregroundTint="#8BC34A"
+    android:visibility="visible"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="239dp"
+        android:layout_height="218dp"
+        android:layout_marginTop="76dp"
+        android:paddingTop="16dp"
+        android:src="@drawable/logo"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/roundstyle"
+        android:backgroundTint="@android:color/background_light"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="758dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="641dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="389dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="1000dp"
+        android:text="Existing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="131dp"
+        android:layout_height="52dp"
+        android:text="New User"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip"
+        android:layout_width="294dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="656dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.68"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="265dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="8dp"
+        android:drawableRight="@drawable/baseline_person_24"
+        android:ems="10"
+        android:hint="Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chip" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="271dp"
+        android:layout_height="58dp"
+        android:drawableRight="@drawable/baseline_email_24"
+        android:ems="10"
+        android:hint="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.631"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="458dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="272dp"
+        android:layout_height="44dp"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:hint="Password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="265dp"
+        android:layout_height="54dp"
+        android:drawableRight="@drawable/baseline_lock_24"
+        android:ems="10"
+        android:hint="Confirm Password"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="373dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="323dp"
+        android:layout_height="91dp"
+        android:text="Existing"
+
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="321dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New User"
+        tools:layout_editor_absoluteX="270dp"
+        tools:layout_editor_absoluteY="344dp"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
